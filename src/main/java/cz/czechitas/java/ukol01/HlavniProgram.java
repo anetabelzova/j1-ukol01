@@ -9,7 +9,7 @@ public class HlavniProgram {
 
 
        // Cast 1 - nakresliPrasatko();
-        zofka.turnRight(60);
+     /*   zofka.turnRight(60);
         zofka.penDown();
         zofka.move(150);
         zofka.turnRight(120);
@@ -55,6 +55,441 @@ public class HlavniProgram {
         zofka.penDown();
         zofka.turnRight(90);
         zofka.move(45);
+
+      */
+
+        // Cast 2
+
+       // nakresliOsmiuhelnik();
+/*
+
+
+zofka.penDown();
+
+zofka.move(100);
+zofka.turnRight(67.5);
+zofka.move(100);
+zofka.turnRight(67.5);
+zofka.move(100);
+zofka.turnRight(67.5);
+zofka.move(100);
+zofka.turnRight(67.5);
+zofka.move(100);
+        zofka.turnRight(67.5);
+        zofka.move(100);
+        zofka.turnRight(67.5);
+        zofka.move(100);
+
+ */
+        // nakresliKolecko();
+
+
+  /*      zofka.penDown();
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+   */
+
+// nakresliSlunicko();
+
+  /*      zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        //paprsky
+
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+       zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(60);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+        zofka.penDown();
+        zofka.turnLeft(90);
+        zofka.move(20);
+        zofka.penUp();
+        zofka.turnRight(180);
+        zofka.move(20);
+        zofka.turnLeft(75);
+        zofka.move(15);
+        zofka.turnRight(20);
+        zofka.move(15);
+
+
+   */
+
+
+
+ private void nakresliOsmiuhelnik(){
+            zofka.penDown();
+
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+            zofka.turnRight(67.5);
+            zofka.move(100);
+    }
+    private void nakresliKolecko(){
+                zofka.penDown();
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+                zofka.turnRight(20);
+                zofka.move(15);
+
+            }
+private void nakresliSlunicko(){
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            //paprsky
+
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(60);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            zofka.penDown();
+            zofka.turnLeft(90);
+            zofka.move(20);
+            zofka.penUp();
+            zofka.turnRight(180);
+            zofka.move(20);
+            zofka.turnLeft(75);
+            zofka.move(15);
+            zofka.turnRight(20);
+            zofka.move(15);
+
+            }
+        }
+
+
+
+
+
+
+
 
     }
 
