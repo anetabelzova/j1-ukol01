@@ -495,411 +495,484 @@ private void nakresliSlunicko(){
 
         //Cast 3
 
-    public void cast3(){
-        Turtle zofka = new Turtle();
+    public void cast3() {
+           Turtle zofka = new Turtle();
 
-        // posun
-zofka.turnRight(180);
-zofka.penUp();
-zofka.move(250);
-zofka.turnLeft(180);
+           // posun
+           zofka.turnRight(180);
+           zofka.penUp();
+           zofka.move(250);
+           zofka.turnLeft(180);
 
-        // nakresleni prasatka
-        zofka.turnRight(60);
-        zofka.penDown();
-        zofka.move(150);
-        zofka.turnRight(120);
-        zofka.move(150);
-        zofka.turnRight(120);
-        zofka.move(150);
+           // nakresleni prasatka
+           zofka.turnRight(60);
+           zofka.penDown();
+           zofka.move(150);
+           zofka.turnRight(120);
+           zofka.move(150);
+           zofka.turnRight(120);
+           zofka.move(150);
 
-        zofka.penUp();
-        zofka.turnRight(120);
-        zofka.move(150);
-        zofka.turnRight(30);
-        zofka.penDown();
+           zofka.penUp();
+           zofka.turnRight(120);
+           zofka.move(150);
+           zofka.turnRight(30);
+           zofka.penDown();
 
-        for (int i =0; i<2;i++){
-            zofka.move(150);
-            zofka.turnRight(90);
-            zofka.move(150);
-            zofka.turnRight(90);
-        }
-       zofka.turnRight(90);
-        zofka.move(150);
+           for (int i = 0; i < 2; i++) {
+                  zofka.move(150);
+                  zofka.turnRight(90);
+                  zofka.move(150);
+                  zofka.turnRight(90);
+           }
+           zofka.turnRight(90);
+           zofka.move(150);
 
-        zofka.turnRight(45);
-        zofka.move(45);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(45);
-        zofka.turnRight(90);
-        zofka.penDown();
-        zofka.move(45);
-        zofka.penUp();
+           zofka.turnRight(45);
+           zofka.move(45);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(45);
+           zofka.turnRight(90);
+           zofka.penDown();
+           zofka.move(45);
+           zofka.penUp();
 
-        zofka.turnRight(180);
-        zofka.move(45);
-        zofka.turnRight(135);
-        zofka.move(150);
+           zofka.turnRight(180);
+           zofka.move(45);
+           zofka.turnRight(135);
+           zofka.move(150);
 
-        zofka.penDown();
-        zofka.turnRight(135);
-        zofka.move(45);
-        zofka.turnRight(180);
-        zofka.penUp();
-        zofka.move(45);
-        zofka.penDown();
-        zofka.turnRight(90);
-        zofka.move(45);
+           zofka.penDown();
+           zofka.turnRight(135);
+           zofka.move(45);
+           zofka.turnRight(180);
+           zofka.penUp();
+           zofka.move(45);
+           zofka.penDown();
+           zofka.turnRight(90);
+           zofka.move(45);
 
-        // posun doprava
- zofka.penUp();
- zofka.turnLeft(45);
- zofka.move(250);
- zofka.penDown();
+           // posun doprava
+           zofka.penUp();
+           zofka.turnLeft(45);
+           zofka.move(250);
+           zofka.penDown();
 
- // nakresleni jednoho domecku
+           // nakresleni jednoho domecku
 
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnLeft(135);
-        zofka.move(200);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnRight(180);
+           //posun
+           zofka.turnLeft(135);
+           zofka.move(200);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnRight(180);
 
-        // nakresleni druheho domecku
+           // nakresleni druheho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnRight(45);
-        zofka.move(150);
-        zofka.turnRight(90);
-        zofka.move(300);
-        zofka.turnRight(180);
+           //posun
+           zofka.turnRight(45);
+           zofka.move(150);
+           zofka.turnRight(90);
+           zofka.move(300);
+           zofka.turnRight(180);
 
-        // nakresleni tretiho domecku
+           // nakresleni tretiho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnRight(45);
-        zofka.move(150);
-        zofka.turnRight(90);
-        zofka.move(300);
-        zofka.turnRight(180);
+           //posun
+           zofka.turnRight(45);
+           zofka.move(150);
+           zofka.turnRight(90);
+           zofka.move(300);
+           zofka.turnRight(180);
 
-        // nakresleni ctvrteho domecku
+           // nakresleni ctvrteho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnRight(45);
-        zofka.move(150);
-        zofka.turnRight(90);
-        zofka.move(300);
-        zofka.turnRight(180);
+           //posun
+           zofka.turnRight(45);
+           zofka.move(150);
+           zofka.turnRight(90);
+           zofka.move(300);
+           zofka.turnRight(180);
 
-        // nakresleni pateho domecku
+           // nakresleni pateho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnRight(45);
-        zofka.move(150);
-        zofka.turnRight(90);
-        zofka.move(300);
-        zofka.turnRight(180);
+           //posun
+           zofka.turnRight(45);
+           zofka.move(150);
+           zofka.turnRight(90);
+           zofka.move(300);
+           zofka.turnRight(180);
 
-        // nakresleni sesteho domecku
+           // nakresleni sesteho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnLeft(225);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(500);
-        zofka.turnLeft(90);
+           //posun
+           zofka.turnLeft(225);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(500);
+           zofka.turnLeft(90);
 
-        //nakresleni sedmeho domecku
+           //nakresleni sedmeho domecku
 
-        zofka.penDown();
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.turnLeft(90);
-        zofka.move(105);
-        zofka.turnLeft(90);
-        zofka.move(150);
-        zofka.penUp();
-        zofka.turnLeft(180);
-        zofka.move(150);
-        zofka.penDown();
-        zofka.turnRight(45);
-        zofka.move(75);
-        zofka.turnRight(90);
-        zofka.move(75);
-        zofka.penUp();
+           zofka.penDown();
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.turnLeft(90);
+           zofka.move(105);
+           zofka.turnLeft(90);
+           zofka.move(150);
+           zofka.penUp();
+           zofka.turnLeft(180);
+           zofka.move(150);
+           zofka.penDown();
+           zofka.turnRight(45);
+           zofka.move(75);
+           zofka.turnRight(90);
+           zofka.move(75);
+           zofka.penUp();
 
-        //posun
-        zofka.turnLeft(135);
-        zofka.move(400);
+           //posun
+           zofka.turnLeft(135);
+           zofka.move(400);
 
-        //nakresli slunicko
+           //nakresli slunicko
 
-        zofka.penDown();
+           zofka.penDown();
 
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(60);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(60);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        zofka.penDown();
-        zofka.turnLeft(90);
-        zofka.move(20);
-        zofka.penUp();
-        zofka.turnRight(180);
-        zofka.move(20);
-        zofka.turnLeft(75);
-        zofka.move(15);
-        zofka.turnRight(20);
-        zofka.move(15);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(20);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(20);
+           zofka.turnLeft(75);
+           zofka.move(15);
+           zofka.turnRight(20);
+           zofka.move(15);
 
-        //posun
+           //posun
 
-        zofka.turnLeft(150);
-        zofka.move(700);
-        zofka.turnRight(90);
-        zofka.move(105);
-        zofka.turnRight(90);
+           zofka.turnLeft(150);
+           zofka.move(800);
+           zofka.turnRight(180);
+
+
+//Cast 4
+
+
+//nakresliA
+                  zofka.penDown();
+                  zofka.move(90);
+                  zofka.turnRight(150);
+                  zofka.move(90);
+                  zofka.turnLeft(180);
+                  zofka.move(45);
+                  zofka.turnLeft(75);
+                  zofka.move(30);
+                  zofka.penUp();
+                  zofka.turnRight(180);
+                  zofka.move(30);
+                  zofka.turnRight(75);
+                  zofka.move(45);
+                  zofka.turnLeft(75);
+
+
+
+           //nakresliN
+
+           zofka.move(45);
+           zofka.penDown();
+           zofka.turnLeft(90);
+           zofka.move(85);
+           zofka.turnRight(135);
+           zofka.move(90);
+           zofka.turnLeft(135);
+           zofka.move(85);
+           zofka.penUp();
+           zofka.turnRight(180);
+           zofka.move(85);
+
+           //posun k E
+           zofka.turnLeft(90);
+           zofka.move(45);
+           zofka.penDown();
+           // nakresliE
+           zofka.turnLeft(90);
+           zofka.move(85);
+           zofka.turnRight(90);
+           zofka.move(50);
+           zofka.turnLeft(180);
+           zofka.move(50);
+           zofka.turnLeft(90);
+           zofka.move(42.5);
+           zofka.turnLeft(90);
+           zofka.move(30);
+           zofka.turnLeft(180);
+           zofka.move(30);
+           zofka.turnLeft(90);
+           zofka.move(42.5);
+           zofka.turnLeft(90);
+           zofka.move(50);
+           zofka.penUp();
+
+           //posun k T
+           zofka.move(45);
+           zofka.penDown();
+
+           //nakresliT
+           zofka.turnLeft(90);
+           zofka.move(85);
+           zofka.turnLeft(90);
+           zofka.move(30);
+           zofka.turnRight(180);
+           zofka.move(60);
+           zofka.penUp();
+           zofka.turnRight(90);
+           zofka.move(85);
+           zofka.turnLeft(90);
 
 
 
@@ -910,10 +983,9 @@ zofka.turnLeft(180);
 
 
 
-
-
     public static void main(String[] args) {
         new HlavniProgram().cast3();
+
     }
 
 }
